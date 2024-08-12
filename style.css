@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6666;
+}
+
+.calculadora{
+    width: 50%;
+    border : 2px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#display {
+    width:95%;
+    border : 2px solid #000;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    background-color: #6666;
+}
+
+button{
+    width: 23%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
